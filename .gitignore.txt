@@ -1,0 +1,13 @@
+# Python virtual environments & bytecode
+__pycache__/
+*.pyc
+.venv/
+env/
+tempCodeRunnerFile.py
+
+# MicroPython / Thonny internal tracking
+.thonny/
+
+# System files
+.DS_Store
+Thumbs.db
