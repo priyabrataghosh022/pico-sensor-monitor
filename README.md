@@ -40,41 +40,6 @@ An end-to-end real-time 6-axis IMU data acquisition, serial streaming, digital s
 
 ---
 
-## 📁 Repository Structure
-
-```text
-pico-sensor-monitor/
-├── .gitignore
-├── LICENSE
-├── README.md
-│
-├── data/
-│   ├── dynamic_vibration.csv
-│   └── stationary_noise.csv
-│
-├── documentation/
-│   ├── technical_report.md
-│   └── technical_report.pdf
-│
-├── experiments/
-│   ├── polling_vs_dma_benchmark.md
-│   └── raw_vs_filtered_plot.png
-│
-├── firmware/
-│   ├── README.md
-│   ├── main.py
-│   └── mpu6050.py
-│
-├── hardware/
-│   ├── breadboard_schematic.png
-│   └── pinout_connections.md
-│
-└── python/
-    ├── filter_analysis.py
-    ├── live_dashboard.py
-    ├── requirements.txt
-    └── serial_reader.py
-
 ```
 
 ---
@@ -155,10 +120,3 @@ python filter_analysis.py
 
 ---
 
-## 📜 License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
-```
-
-```
